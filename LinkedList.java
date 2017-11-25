@@ -26,6 +26,7 @@ class Node{
     {
         Node end= new Node(n);
         Node curr=this;
+        System.out.println("this is in appending: "+this.data);
         while(curr.next!=null)
         {
             curr=curr.next;
